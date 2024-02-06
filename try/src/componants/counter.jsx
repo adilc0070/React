@@ -1,6 +1,6 @@
 import React from 'react'
 
-function counter({title,...obj}) {
+function Counter({title,...obj}) {
 
     
   return (
@@ -10,4 +10,4 @@ function counter({title,...obj}) {
   )
 }
 
-export default counter
+export default Counter
