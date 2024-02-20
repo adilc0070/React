@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import One from '../components/one'
 
-function Profile({prop}) {
+function Profile() {
   let navi=useNavigate()
   let neavigate=(route)=>{
     navi('/'+route)
@@ -13,7 +13,7 @@ function Profile({prop}) {
       
       <h1 onClick={()=>{neavigate("pro")}}>profile page</h1>
       <h3 onClick={()=>{neavigate("about")}}>profile page</h3>
-      <One lt={prop} />
+      <One />
     </div>
   )
 }
